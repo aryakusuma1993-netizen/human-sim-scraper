@@ -1,0 +1,11 @@
+{
+  "targetUrl": "aryakusumahh.eu.org",
+  "visits": 10,
+  "minReadSeconds": 60,
+  "maxReadSeconds": 75,
+  "scrollStep": 350,
+  "scrollDelayMinMs": 800,
+  "scrollDelayMaxMs": 2000,
+  "headless": true,
+  "proxyProtocol": "http"
+}
