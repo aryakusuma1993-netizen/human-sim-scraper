@@ -1,11 +1,14 @@
 {
-  "targetUrl": "aryakusumahh.eu.org",
-  "visits": 10,
-  "minReadSeconds": 60,
-  "maxReadSeconds": 75,
-  "scrollStep": 350,
-  "scrollDelayMinMs": 800,
-  "scrollDelayMaxMs": 2000,
-  "headless": true,
-  "proxyProtocol": "http"
+  "name": "human-sim-scraper",
+  "version": "1.0.0",
+  "description": "Bot scraping + simulasi user (scroll, baca 1 menit) dengan rotasi IP via proxy",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "clean": "rm -f results.csv"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
 }
